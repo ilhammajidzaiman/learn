@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplikasi todolist dengan javascript</title>
+    <style>
+        .done {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+        <h1>aplikasi todolist dengan javascript</h1>
+        
+        <!-- <form action="#"> -->
+            <input type="text" id="new_text">
+            <input type="number" id="new_number" value="1">
+            <button onclick="add()">add</button>
+        <!-- </form> -->
+        <ul id="todo"></ul>
+        
+    <script>
+        const toDo = document.getElementById('todo')
+
+            function add() {
+                // ambil nilai dari text
+                let newText = document.getElementById('new_text')
+                let newNumber = document.getElementById('new_number')
+
+                // tambahkan list baru ke dalam ul
+                // cara1
+                // let li = document.createElement('li')
+                // let txt = document.createTextNode(newText.value)
+                // li.appendChild(txt)
+                // toDo.appendChild(li)
+
+                // cara2
+                let newTodo = `<li>
+        <span onclick="toggleCoret(this)">`+ newText.value + `</span>
+        <input type="number" id="new_number" value=`+ newNumber.value + `>
+        <span onclick="removeItem(this)">[hapus]</span></li>`
+                toDo.insertAdjacentHTML("afterbegin", newTodo)
+
+                // kosongkan field nya
+                newText.value = ''
+                newNumber.value = '1'
+            }
+            function toggleCoret(el) {
+                el.classList.toggle('done');
+            }
+            function removeItem(el) {
+                el.parentElement.remove();
+            }
+    </script>
+</body>

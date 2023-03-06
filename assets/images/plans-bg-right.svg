@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="382"
+   height="566"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="plans-bg-right.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.56189792"
+     inkscape:cx="492.9721"
+     inkscape:cy="306.10542"
+     inkscape:window-width="1366"
+     inkscape:window-height="700"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs7">
+    <linearGradient
+       x1="919.33019"
+       y1="3531.4898"
+       x2="1472.3354"
+       y2="4003.5024"
+       id="a"
+       gradientTransform="matrix(-0.92033918,0.2518618,0.1861834,0.70966017,849.66395,-2806.3443)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#328BF2"
+         offset="0%"
+         id="stop2"
+         style="stop-color:#0077ff;stop-opacity:1" />
+      <stop
+         stop-color="#1644AD"
+         offset="100%"
+         id="stop4"
+         style="stop-color:#001f3f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path
+     d="M 449.55932,578.02472 C 367.6877,600.42986 387.66978,500.04233 253.73019,459.44756 155.31001,429.6188 39.673892,489.08419 15.941481,398.62528 -24.353498,245.03617 104.45311,76.338902 303.63832,21.829494 502.82353,-32.679922 696.96118,47.639818 737.25617,201.22892 777.55114,354.81803 648.74454,523.51531 449.55932,578.02472 Z"
+     fill="url(#a)"
+     fill-rule="evenodd"
+     id="path9"
+     style="fill:url(#a);stroke-width:0.836672" />
+</svg>

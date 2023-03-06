@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>webcam javascript</title>
+	<style>
+		#webcam {
+			width: 400px;
+			height: 300px;
+			background-color: gray;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>webcam javascript</h1>
+	<video id="webcam" autoplay="true" ></video>
+	<script>
+		let webcam = document.querySelector("#webcam");
+		if (navigator.mediaDevices.getUserMedia) {
+			navigator.mediaDevices.getUserMedia({ video: true })
+			.then(function (stream) {
+				webcam.srcObject = stream;
+			})
+			.catch(function (err0r) {
+				alert('error!');
+				console.log("something wrong!");
+			});
+		}
+		else{
+			alert('not supported!');
+			console.log("not supported!");
+		}
+	</script>
+</body>
+</html>

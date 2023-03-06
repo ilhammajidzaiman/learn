@@ -1,0 +1,131 @@
+.content {
+  min-height: 1000px;
+}
+
+.rec-head {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../images/ben-Bj6ENZDMSDY-unsplash.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(180vh at 50% -80vh);
+  /* -webkit-clip-path: circle(150vh at 50% 10vh); */
+}
+.nav-bar {
+  background-color: #001f3f;
+  /* background: linear-gradient(
+    45deg,
+    rgba(0, 31, 63, 1) 0%,
+    rgba(0, 119, 255, 1) 100%
+  ); */
+}
+.jumbo-head {
+  margin: 0;
+  width: 100%;
+  min-height: 250px;
+  /* background: url(../images/ben-Bj6ENZDMSDY-unsplash.jpg); */
+  background: rgb(0, 31, 63);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 31, 63, 1) 0%,
+    rgba(0, 119, 255, 1) 100%
+  );
+  background-attachment: fixed;
+  background-position: center;
+  clip-path: ellipse(100% 60% at 50% 40%);
+  /* clip-path: ellipse(71% 59% at 50% 40%); */
+  position: relative;
+  box-shadow: black 10px 10px 10px;
+}
+
+.footer-head {
+  margin: 0;
+  width: 100%;
+  /* height: 500px; */
+  /* background: url(../images/ben-Bj6ENZDMSDY-unsplash.jpg); */
+  background: rgb(0, 31, 63);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 31, 63, 1) 0%,
+    rgba(0, 119, 255, 1) 100%
+  );
+  background-attachment: fixed;
+  background-position: center;
+  clip-path: ellipse(100% 60% at 50% 60%);
+  /* clip-path: ellipse(71% 59% at 50% 40%); */
+  position: relative;
+  /* box-shadow: black 10px 10px 10px; */
+}
+.jumbo-text {
+  color: aliceblue;
+  text-align: center;
+}
+
+.skew-head {
+  height: 400px;
+  position: relative;
+  width: 100%;
+}
+.skew-head img {
+  width: 100%;
+}
+.skew-head::before {
+  position: absolute;
+  content: "";
+  width: 62%;
+  height: 125px;
+  top: -50px;
+  left: 0;
+  background: white;
+  transform: skewY(10deg);
+}
+.skew-head::after {
+  position: absolute;
+  content: "";
+  width: 62%;
+  height: 125px;
+  top: -50px;
+  right: 0;
+  background: white;
+  transform: skewY(-10deg);
+}
+
+.plans-section {
+  height: 742px;
+  background-image: url(../images/plans-bg-left.svg),
+    url(../images/plans-bg-right.svg);
+  background-position: 0 100%, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+/* background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,31,63,1) 20%, rgba(0,31,63,1) 80%, rgba(255,255,255,1) 100%); */
+/* 
+
+<h1 class="underline-small">Short Text Underline using CSS | Something else</h1>
+.underline-small{
+  color:green;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.underline-small::after{
+  content:'';
+  height:2px;
+  width:20%;
+  background:#f24432;
+  position:absolute;
+  left:calc(50% - 10%);
+  bottom:-5px;
+/*   another way you can achieve this
+  Check this link: 
+  https://goo.gl/GgRdjz
+  
+  */
+
+/* } */

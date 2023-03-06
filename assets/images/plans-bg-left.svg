@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="415"
+   height="674"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="plans-bg-left.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.83976261"
+     inkscape:cx="-13.694346"
+     inkscape:cy="453.69965"
+     inkscape:window-width="1366"
+     inkscape:window-height="700"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs7">
+    <linearGradient
+       x1=".696%"
+       y1="1.232%"
+       x2="71.255%"
+       y2="61.457%"
+       id="a">
+      <stop
+         stop-color="#328BF2"
+         offset="0%"
+         id="stop2"
+         style="stop-color:#0077ff;stop-opacity:1" />
+      <stop
+         stop-color="#1644AD"
+         offset="100%"
+         id="stop4"
+         style="stop-color:#001f3f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path
+     d="M-36 3690c102.38 0 48.338-108.433 192.183-196.68C261.882 3428.476 415 3460.257 415 3349.5c0-188.053-201.92-340.5-451-340.5s-451 152.447-451 340.5S-285.08 3690-36 3690z"
+     fill="url(#a)"
+     fill-rule="evenodd"
+     id="path9"
+     transform="translate(0 -3010)" />
+</svg>

@@ -1,0 +1,206 @@
+.jumbotron{
+    min-height: 450px;
+    background-image: url("../../assets/images/gene-bautista-BCLyHnC8Prk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.jumbotron-text{
+  margin: 100px auto;
+  color: aliceblue !important;
+  text-shadow: black 0 0 3px;
+}
+.jumbotron-text img{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border-width: solid 5px #ffffff;
+  box-shadow: 0 0 3px black;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron{
+        margin-top: -65px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+.header-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.header-title ::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 160px;
+    height: 1px;
+    left: calc(50% - 80px);
+    background-color: #d3d3d3;;
+}
+.header-title ::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 50px;
+    height: 4px;
+    border-radius: 2px;
+    left: calc(50% - 25px);
+    background-color:#0077ff;
+}
+
+
+/* end */
+/* ==================== */
+/* icon transform start */
+
+.icon-sosmed {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+
+.icon-sosmed li {
+  margin: 3px;
+  float: left;
+}
+
+.icon-sosmed a,
+a:visited {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #808080;
+  color: #ffffff;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all ease-out 0.25s;
+  -webkit-transition: all ease-out 0.25s;
+}
+
+.icon-sosmed a:hover {
+  background-color: #1bbae1;
+  color: #ffffff;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+/* end */
+/* ==================== */
+/* icon rotate start*/
+
+.icon-sosmed-rotate {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+
+.icon-sosmed-rotate li {
+  margin: 3px;
+  float: left;
+}
+
+.icon-sosmed-rotate a,
+a:visited {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #808080;
+  color: #ffffff;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all ease-out 0.25s;
+  -webkit-transition: all ease-out 0.25s;
+}
+
+.icon-sosmed-rotate a:hover {
+  background-color: #1bbae1;
+  color: #ffffff;
+  transform: rotate(360deg) scale(1.2);
+  -webkit-transform: rotate(360deg) scale(1.2);
+}
+/* end */
+/* ==================== */
+/* icon text start */
+.icon{
+    padding: 3px;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-start;
+    -ms-flex-align: start;
+}
+.icon-img i {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #1bbae1;
+  margin-right: 5px;
+  color: #ffffff;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all ease-out 0.25s;
+  -webkit-transition: all ease-out 0.25s;
+}
+
+.icon-img i:hover {
+  background-color: #1bbae1;
+  color: #ffffff;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.icon-text a {
+  margin-left: 5px;
+  color: #ffffff;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.icon-text a:hover {
+  color: #0077ff;
+  line-height: 30px;
+  text-decoration: none;
+}
+/* .icon-dark i{
+    background-color: salmon;
+}
+.icon-dark i:hover{
+    background-color: salmon;
+} */
+/* end */
+
+
+
+.img-galery{
+  width: 200px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+}
+.img-galery img{
+  width: 200px;
+}

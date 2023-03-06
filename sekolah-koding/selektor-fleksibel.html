@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selektor fleksibel di javascript</title>
+</head>
+<body>
+
+<h1>selektor fleksibel di javascript</h1>
+
+    <h1 class="judul">ok world</h1>
+    <h1 class="judul">hai world</h1>
+    <div class="judul">oke</div>
+    <div class="judul">oke2</div>
+    <div class="judul">oke3</div>
+
+    <script>
+        // function $(el){
+        //     return el;
+        // }
+
+        function $(el) {
+            if (el.charAt[0] == "#")
+                return document.querySelector('el')
+            else
+                return document.querySelectorAll('el')
+        }
+
+        // function $(el){
+        //     return(el.charAt[0]=="#")
+        //         ? document.querySelector('el')
+        //         : document.querySelectorAll('el')
+        // }
+
+        $(".judul")[0].style.color = "blue"
+        console.log($(".judul"))
+    </script>
+</body>
+</html>
